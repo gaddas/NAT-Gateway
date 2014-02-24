@@ -1,0 +1,42 @@
+﻿Installing assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.InstallLog
+Installing service NetGate DNSd...
+Service NetGate DNSd has been successfully installed.
+Creating EventLog source NetGate DNSd in log Application...
+Committing assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.InstallLog
+Uninstalling assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.InstallLog
+Removing EventLog source NetGate DNSd.
+Service NetGate DNSd is being removed from the system...
+Service NetGate DNSd was successfully removed from the system.
+Installing assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.InstallLog
+Installing service NetGate DNSd...
+Service NetGate DNSd has been successfully installed.
+Creating EventLog source NetGate DNSd in log Application...
+Committing assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.InstallLog
+Uninstalling assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dnsd.InstallLog
+Removing EventLog source NetGate DNSd.
+Service NetGate DNSd is being removed from the system...
+Service NetGate DNSd was successfully removed from the system.

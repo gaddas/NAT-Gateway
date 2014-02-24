@@ -1,0 +1,46 @@
+ 
+#
+# Sample configuration file
+#
+interface 192.168.0.4;
+
+range 192.168.0.201 192.168.0.220;		# The range of IP addresses the server will issue to DHCP enabled PC clients booting up on the network
+default-lease-time 10800;			# Set the amount of time in seconds that a client may keep the IP address
+max-lease-time 86400;				# Set the amount of time in seconds that a client may keep the IP address
+filename ""					# The filename statement can be used to specify the name  of the  initial  boot file which is to be loaded by a client.
+
+option server-name "";				# The server-name statement can be used to inform the client of the name of the server from which it is booting.
+option server-identifier 192.168.0.1;		# The server-identifier statement can be used to define the value that is sent in the DHCP  Server  Identifier  option for  a  given  scope.
+
+option routers 192.168.1.1;			# Set the default gateway to be used by the PC clients
+option domain-name-servers 192.168.1.100;	# Set the DNS server to be used by the DHCP clients
+option ntp-servers 192.168.1.100;		# Set the NTP server to be used by the DHCP clients
+option time-servers ntp1.phys.ufl.edu;		# Set the Time server to be used by the DHCP clients
+option netbios-name-servers 192.168.1.100;	# If you specify a WINS server for your Windows clients
+option subnet-mask 255.255.255.0;		# Set the subnet mask to be used by the DHCP clients
+option broadcast-address 192.168.1.255;		# Set the broadcast address to be used by the DHCP clients
+
+option domain-name "mydomain.com";		# Set the domain name to be used by the DHCP clients
+option ip-forwarding;				# Don't forward DHCP requests from this NIC interface to any other NIC interfaces
+
+option boot-file-size 0;
+option default-udp-ttl 64;
+option default-tcp-ttl 64;
+option default-mtu 2048;
+option arp-cache-timeout 1440;
+
+	
+ping-check;					# When the DHCP server is considering dynamically allocating an IP address to a client, it first sends an ICMP Echo request (a ping) to the address being assigned.
+ping-timeout 3000;				# If the DHCP server determined it should send an ICMP echo request (a ping) because the ping-check statement is true, ping-timeout allows you to configure how many miliseconds the DHCP server should wait for an ICMP Echo response.
+
+deny-unknown-clients;
+
+ 
+# You can also assign specific IP addresses based on the clients' ethernet MAC address as follows (Host's name is "laser-printer":
+host laser-printer {
+	hardware-address 08:00:2b:4c:59:23;
+	fixed-address 192.168.1.222;
+}
+
+
+

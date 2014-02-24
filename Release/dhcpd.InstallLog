@@ -1,0 +1,29 @@
+﻿Uninstalling assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.InstallLog
+Removing EventLog source NetGate DHCPd.
+Service NetGate DHCPd is being removed from the system...
+Service NetGate DHCPd was successfully removed from the system.
+Installing assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.InstallLog
+Installing service NetGate DHCPd...
+Service NetGate DHCPd has been successfully installed.
+Creating EventLog source NetGate DHCPd in log Application...
+Committing assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.InstallLog
+Uninstalling assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\dhcpd.InstallLog
+Removing EventLog source NetGate DHCPd.
+Service NetGate DHCPd is being removed from the system...
+Service NetGate DHCPd was successfully removed from the system.

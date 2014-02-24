@@ -1,0 +1,9 @@
+# Sample DNSd config file
+
+nameserver 208.67.220.220;	# Primary DNS Server provided by the ISP
+nameserver 208.67.222.222;	# Secondary DNS Server provided by the ISP
+
+cache on;
+cache-size 10000;
+
+record 64.233.161.104 google.bg;

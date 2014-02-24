@@ -1,0 +1,48 @@
+# Sample NATd config file
+#  -t, --table
+#  -A, --append				(PREROUTING, INPUT, FORWARD, OUTPUT, POSTROUTING)
+#  -i, --in-interface			(RED, GREEN)
+#  -o, --out-interface			(RED, GREEN)
+#  -j, --jump				(ACCEPT, DROP, LOG, MASQUERADE, REJECT, TTL, LIMIT, REDIRECT)
+#  -p, --protocol			(tcp, udp, icmp, torrent)
+#  --sport, --source-port
+#  --dport, --destination-port
+#  -s, --src, --source
+#  -d, --dst, --destination
+#  -F, --flush
+
+
+natd -t mangle --flush
+natd -t filter --flush
+natd -t nat --flush
+
+# =================================================================================
+#  NAT (internet -> RED <-NAT-> GREEN <- local)
+# =================================================================================
+
+INTERFACE_GREEN		= \Device\NPF_{3D9A0776-A911-4E5F-AE9A-47D2A9D924FC}		# Marvel
+INTERFACE_RED		= \Device\NPF_{CC4DCF9B-608B-44E1-A6E5-3BBD431D5472}		# Atheros
+
+EXTERNAL_GATEWAY	= 192.168.1.1
+
+
+natd -t nat -A PREROUTING -i RED -o GREEN -j DNAT
+natd -t nat -A POSTROUTING -i GREEN -o RED -j SNAT
+
+
+
+
+# Limit traffic to 1kbps
+# natd -t nat -A FORWARD -j LIMIT --speed 4096
+
+# TTL Modify on routed packets
+natd -t mangle -A FORWARD -j TTL --ttl-dec 1
+
+# Filter specific IP
+natd -t filter -A FORWARD -s 192.168.0.5 -j DROP
+
+# Firewall
+# natd -t filter -A INPUT -s 87.120.0.22 --sport 80 -j DROP
+
+# Limit to quota of 50MB
+# natd -t nat -A FORWARD -s 192.168.0.5 -p TCP -j LIMIT --quota 52428800

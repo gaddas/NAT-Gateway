@@ -1,0 +1,16 @@
+natd -t mangle --flush
+natd -t filter --flush
+natd -t nat --flush
+
+INTERFACE_GREEN = \Device\NPF_{CC4DCF9B-608B-44E1-A6E5-3BBD431D5472} 
+INTERFACE_RED = \Device\NPF_{3D9A0776-A911-4E5F-AE9A-47D2A9D924FC} 
+EXTERNAL_GATEWAY = 192.168.1.1 
+
+natd -t MANGLE -a FORWARD -j TTL 
+natd -t NAT -a PREROUTING -i RED -o GREEN -j DNAT 
+natd -t NAT -a FORWARD -s 192.168.0.6 -j LIMIT --speed 32768 
+natd -t NAT -a POSTROUTING -i GREEN -o RED -j SNAT 
+natd -t FILTER -a FORWARD -s 192.168.0.5 -j DROP 
+natd -t FILTER -a FORWARD -s 87.120.0.68 --sport 80 -p TCP -j DROP 
+natd -t FILTER -a FORWARD -s 192.0.0.16 -j REJECT 
+

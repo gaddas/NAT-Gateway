@@ -1,0 +1,21 @@
+﻿Installing assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\natd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\natd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\natd.InstallLog
+Installing service NetGate NATd...
+Service NetGate NATd has been successfully installed.
+Creating EventLog source NetGate NATd in log Application...
+Committing assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\natd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\natd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\natd.InstallLog
+Uninstalling assembly 'E:\_Documents\My Protocols\Дипломна работа\SVN\Release\natd.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\natd.exe
+   logfile = E:\_Documents\My Protocols\Дипломна работа\SVN\Release\natd.InstallLog
+Removing EventLog source NetGate NATd.
+Service NetGate NATd is being removed from the system...
+Service NetGate NATd was successfully removed from the system.
