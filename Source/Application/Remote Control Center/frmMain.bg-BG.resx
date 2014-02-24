@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tpStatus.Text" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="tpDHCP.Text" xml:space="preserve">
+    <value>Динамично конфигуриране</value>
+  </data>
+  <data name="tpNAT.Text" xml:space="preserve">
+    <value>Адресна транслация</value>
+  </data>
+  <data name="tpFirewall.Text" xml:space="preserve">
+    <value>Защитна стена</value>
+  </data>
+  <data name="tpTraffSh.Text" xml:space="preserve">
+    <value>Контрол на трафика</value>
+  </data>
+  <data name="pageStatus_gbServices.Text" xml:space="preserve">
+    <value>Състояние</value>
+  </data>
+  <data name="pageStatus_lblNAT.Text" xml:space="preserve">
+    <value>Адресна транслация и защитна стена</value>
+  </data>
+  <data name="pageStatus_lblDNS.Text" xml:space="preserve">
+    <value>Преобразуване на домейн имена</value>
+  </data>
+  <data name="pageStatus_lblDHCP.Text" xml:space="preserve">
+    <value>Динамично конфигуриране</value>
+  </data>
+  <data name="pageStatus_btnLocalServer.Text" xml:space="preserve">
+    <value>Управление на локален сървър</value>
+  </data>
+  <data name="pageStatus_btnRefresh.Text" xml:space="preserve">
+    <value>Обнови</value>
+  </data>
+  <data name="pageStatus_btnStopNAT.Text" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="pageStatus_btnStartNAT.Text" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="pageStatus_btnStopDNS.Text" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="pageStatus_btnStopDHCP.Text" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="pageStatus_btnStartDNS.Text" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="pageStatus_btnStartDHCP.Text" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="pageStatus_lblInfo.Text" xml:space="preserve">
+    <value>Могат да бъдат управлявани само локални услуги. За използвате останалите възможности, трябва да се свържете със сървър.</value>
+  </data>
+  <data name="pageStatus_lblLogo2.Text" xml:space="preserve">
+    <value>Отдалечен контрол</value>
+  </data>
+  <data name="pageDHCP_gbStatus.Text" xml:space="preserve">
+    <value>Състояние</value>
+  </data>
+  <data name="chLeasesIPAddr.Text" xml:space="preserve">
+    <value>IP Адрес</value>
+  </data>
+  <data name="chLeasesHwAddr.Text" xml:space="preserve">
+    <value>Хардуерен Адрес</value>
+  </data>
+  <data name="chLeasesHostname.Text" xml:space="preserve">
+    <value>Име на компютър</value>
+  </data>
+  <data name="chLeasesLeaseTime.Text" xml:space="preserve">
+    <value>Договорено време</value>
+  </data>
+  <data name="pageDHCP_btnRefresh.Text" xml:space="preserve">
+    <value>Обнови</value>
+  </data>
+  <data name="pageDHCP_btnSetup.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="pageDNS_gbResolver.Text" xml:space="preserve">
+    <value>Статични</value>
+  </data>
+  <data name="chDnsIp.Text" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="chDnsRequest.Text" xml:space="preserve">
+    <value>Заявка</value>
+  </data>
+  <data name="pageDNS_btnRemoveRecord.Text" xml:space="preserve">
+    <value>Премахни</value>
+  </data>
+  <data name="pageDNS_btnAddRecord.Text" xml:space="preserve">
+    <value>Добави нов запис</value>
+  </data>
+  <data name="pageDNS_btnApply.Text" xml:space="preserve">
+    <value>Потвърди</value>
+  </data>
+  <data name="pageDNS_gbCaching.Text" xml:space="preserve">
+    <value>Кеширане</value>
+  </data>
+  <data name="pageDNS_lblRecords.Text" xml:space="preserve">
+    <value>(записа)</value>
+  </data>
+  <data name="pageDNS_lblCacheSize.Text" xml:space="preserve">
+    <value>Големина:</value>
+  </data>
+  <data name="pageDNS_btnClearCache.Text" xml:space="preserve">
+    <value>Изчисти Кеш</value>
+  </data>
+  <data name="pageDNS_cbEnableCache.Text" xml:space="preserve">
+    <value>Кеширай заявките за по-бърз отговор</value>
+  </data>
+  <data name="pageDNS_gbForwarding.Text" xml:space="preserve">
+    <value>Пренасочване</value>
+  </data>
+  <data name="pageDNS_lblDNSInfo.Text" xml:space="preserve">
+    <value>С (;) може да разделяте отделните адреси.</value>
+  </data>
+  <data name="pageDNS_rbUseSpecifiedDNS.Text" xml:space="preserve">
+    <value>Използвай посочените DNS сървър(и):</value>
+  </data>
+  <data name="pageDNS_rbUseSystemDefaultDNS.Text" xml:space="preserve">
+    <value>Използвай DNS сървър по подразбиране.</value>
+  </data>
+  <data name="pageNAT_cbEnableTTL.Text" xml:space="preserve">
+    <value>Не променяй TTL</value>
+  </data>
+  <data name="pageNAT_cbEnableNAT.Text" xml:space="preserve">
+    <value>Разреши адресна транслация между тези интерфейси</value>
+  </data>
+  <data name="pageNAT_btnApply.Text" xml:space="preserve">
+    <value>Потвърди</value>
+  </data>
+  <data name="pageNAT_gbRouting.Text" xml:space="preserve">
+    <value>Маршрутизиране</value>
+  </data>
+  <data name="chRoutingInHwAddr.Text" xml:space="preserve">
+    <value>Физически Адрес</value>
+  </data>
+  <data name="chRoutingInIPAddr.Text" xml:space="preserve">
+    <value>IP Адрес</value>
+  </data>
+  <data name="chRoutingInAdapterName.Text" xml:space="preserve">
+    <value>Име</value>
+  </data>
+  <data name="chRoutingInAdapterInfo.Text" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="pageNAT_lblInternal.Text" xml:space="preserve">
+    <value>Вътрешен интерфейс</value>
+  </data>
+  <data name="pageNAT_lblExternal.Text" xml:space="preserve">
+    <value>Външен интерфейс</value>
+  </data>
+  <data name="chRoutingExHwAddr.Text" xml:space="preserve">
+    <value>Физически адрес</value>
+  </data>
+  <data name="chRoutingExIPAddr.Text" xml:space="preserve">
+    <value>IP Адрес</value>
+  </data>
+  <data name="chRoutingExAdapterName.Text" xml:space="preserve">
+    <value>Име</value>
+  </data>
+  <data name="chRoutingExAdapterInfo.Text" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="pageFirewall_lblNote.Text" xml:space="preserve">
+    <value>ЗАБЕЛЕЖКА: Не всички възможности са налични от потребителския интерфейс. За пълен контрол вижте конфигурационните файлове.</value>
+  </data>
+  <data name="pageFirewall_gbRules.Text" xml:space="preserve">
+    <value>Правила</value>
+  </data>
+  <data name="pageFirewall_btnRemove.ToolTip" xml:space="preserve">
+    <value>Премахни</value>
+  </data>
+  <data name="pageFirewall_gbNewRule.Text" xml:space="preserve">
+    <value>Ново правило</value>
+  </data>
+  <data name="pageFirewall_btnAdd.ToolTip" xml:space="preserve">
+    <value>Добави</value>
+  </data>
+  <data name="pageFirewall_lblDstMask.Text" xml:space="preserve">
+    <value>Крайна маска</value>
+  </data>
+  <data name="pageFirewall_lblSrcMask.Text" xml:space="preserve">
+    <value>Начална маска</value>
+  </data>
+  <data name="pageFirewall_lblSrcPort.Text" xml:space="preserve">
+    <value>Начален порт</value>
+  </data>
+  <data name="pageFirewall_lblAction.Text" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="pageFirewall_lblProtocol.Text" xml:space="preserve">
+    <value>Протокол</value>
+  </data>
+  <data name="pageFirewall_lblDstPort.Text" xml:space="preserve">
+    <value>Краен порт</value>
+  </data>
+  <data name="pageFirewall_lblDstAddr.Text" xml:space="preserve">
+    <value>Краен адрес</value>
+  </data>
+  <data name="pageFirewall_lblSrcAddr.Text" xml:space="preserve">
+    <value>Начален адрес</value>
+  </data>
+  <data name="pageFirewall_btnApply.Text" xml:space="preserve">
+    <value>Потвърди</value>
+  </data>
+  <data name="pageTrafficShaping_lblNote.Text" xml:space="preserve">
+    <value>ЗАБЕЛЕЖКА: Не всички възможности са налични от потребителския интерфейс. За пълен контрол вижте конфигурационните файлове.</value>
+  </data>
+  <data name="pageTrafficShaping_gbRules.Text" xml:space="preserve">
+    <value>Правила</value>
+  </data>
+  <data name="pageTrafficShaping_btnRemove.ToolTip" xml:space="preserve">
+    <value>Премахни</value>
+  </data>
+  <data name="pageTrafficShaping_gbAddRule.Text" xml:space="preserve">
+    <value>Ново правило</value>
+  </data>
+  <data name="pageTrafficShaping_lblSrcPort.Text" xml:space="preserve">
+    <value>Начален порт</value>
+  </data>
+  <data name="pageTrafficShaping_lblLimit.Text" xml:space="preserve">
+    <value>Ограничение (kBps)</value>
+  </data>
+  <data name="pageTrafficShaping_btnAdd.ToolTip" xml:space="preserve">
+    <value>Добави</value>
+  </data>
+  <data name="pageTrafficShaping_lblProtocol.Text" xml:space="preserve">
+    <value>Протокол</value>
+  </data>
+  <data name="pageTrafficShaping_lblDstPort.Text" xml:space="preserve">
+    <value>Краен порт</value>
+  </data>
+  <data name="pageTrafficShaping_lblDstAddr.Text" xml:space="preserve">
+    <value>Краен адрес</value>
+  </data>
+  <data name="pageTrafficShaping_lblSrcAddr.Text" xml:space="preserve">
+    <value>Начален адрес</value>
+  </data>
+  <data name="pageTrafficShaping_btnApply.Text" xml:space="preserve">
+    <value>Потвърди</value>
+  </data>
+  <data name="menuItemFile.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="menuItemOpenLocal.Text" xml:space="preserve">
+    <value>Управление на локален сървър</value>
+  </data>
+  <data name="menuItemManageAccess.Text" xml:space="preserve">
+    <value>Управление на локалните права за достъп</value>
+  </data>
+  <data name="menuItemOpenRemote.Text" xml:space="preserve">
+    <value>Управление на отдалечен сървър</value>
+  </data>
+  <data name="menuItemDisconnect.Text" xml:space="preserve">
+    <value>Разкачване</value>
+  </data>
+  <data name="menuItemToTray.Text" xml:space="preserve">
+    <value>Скрий долу</value>
+  </data>
+  <data name="menuItemExit.Text" xml:space="preserve">
+    <value>Изход</value>
+  </data>
+  <data name="menuItemTools.Text" xml:space="preserve">
+    <value>Инструменти</value>
+  </data>
+  <data name="menuItemRefresh.Text" xml:space="preserve">
+    <value>Обнови</value>
+  </data>
+  <data name="menuItemDhcpInstall.Text" xml:space="preserve">
+    <value>Инсталиране на DHCP услуга</value>
+  </data>
+  <data name="menuItemDhcpUnInstall.Text" xml:space="preserve">
+    <value>Премахване на DHCP услуга</value>
+  </data>
+  <data name="menuItemDnsInstall.Text" xml:space="preserve">
+    <value>Инсталиране на DNS услуга</value>
+  </data>
+  <data name="menuItemDnsUnInstall.Text" xml:space="preserve">
+    <value>Премахване на DNS услуга</value>
+  </data>
+  <data name="menuItemNatInstall.Text" xml:space="preserve">
+    <value>Инсталиране на NAT услуга</value>
+  </data>
+  <data name="menuItemNatUnInstall.Text" xml:space="preserve">
+    <value>Премахване на NAT услуга</value>
+  </data>
+  <data name="menuItemPlugins.Text" xml:space="preserve">
+    <value>Допълнения</value>
+  </data>
+  <data name="menuItemLanguage.Text" xml:space="preserve">
+    <value>Език</value>
+  </data>
+  <data name="menuItemEnglish.Text" xml:space="preserve">
+    <value>Английски</value>
+  </data>
+  <data name="menuItemBulgarian.Text" xml:space="preserve">
+    <value>Български</value>
+  </data>
+  <data name="menuItemHelp.Text" xml:space="preserve">
+    <value>Помощ</value>
+  </data>
+  <data name="menuItemContents.Text" xml:space="preserve">
+    <value>Съдържание</value>
+  </data>
+  <data name="menuItemIndex.Text" xml:space="preserve">
+    <value>Индекс</value>
+  </data>
+  <data name="menuItemAbout.Text" xml:space="preserve">
+    <value>За програмата</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>NetGate Отдалечен Контрол</value>
+  </data>
+</root>

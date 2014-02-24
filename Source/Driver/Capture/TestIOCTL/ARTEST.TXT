@@ -1,0 +1,40 @@
+#
+# Sample IP Addpress Blocking List File
+#
+# Lines beginning with '#' are comments. Leading and trailing whitespace
+# is ignored. Empty lines are ignored.
+#
+# The first non-comment line must be the name of the lower adapter
+# that the list of IP addresses to block is intended.
+#
+
+# National Semiconductor Corp. DP83820 10/100/1000 GigPhyter PCI Adapter
+\DEVICE\{9C9770B5-CFBC-41DF-BE1D-510CEC826190}
+
+#
+# Then comes the list of IP addresses to block. The IP addresses can
+# have a comment, if desirable.
+#
+172.16.1.10
+  192.168.2.1
+    192.168.2.2     
+ 192.168.2.3    
+172.16.100.5
+192.168.2.4     ; Can have comments per IP address, if desirable...
+198.173.253.120 ; www.pcausa.com
+172.16.10.5
+192.168.2.5
+137.65.2.5      ; Novell
+192.233.80.5      ; Novell
+137.65.2.6      ; Novell
+192.233.80.6      ; Novell
+192.233.80.9      ; Novell
+192.168.2.6
+192.168.2.7
+137.65.2.11     ; Novell
+192.233.80.11      ; Novell
+192.168.2.8
+192.168.2.9
+12.6.233.20     ; NUMEGA.COM
+17.254.0.91     ; APPLE.COM
+

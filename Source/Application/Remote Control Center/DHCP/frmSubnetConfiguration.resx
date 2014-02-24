@@ -1,0 +1,2195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tbAddrRangeEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="&gt;&gt;cbNetworkTimeServers.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;tbBootFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAddrRangeStart.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;imgSideImage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ipDNS1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;lblBootFilename.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="&gt;&gt;cbNBNameServers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbDenyUnknownClients.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="ipDNS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="cbDefaultTtlForUdp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 17</value>
+  </data>
+  <data name="tbBootFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 169</value>
+  </data>
+  <data name="btnOK.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnUserClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="lbInterfaces.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 82</value>
+  </data>
+  <data name="&gt;&gt;ipDNS1.Name" xml:space="preserve">
+    <value>ipDNS1</value>
+  </data>
+  <data name="&gt;&gt;cbNetworkTimeServers.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultTtlForTcp.Name" xml:space="preserve">
+    <value>cbDefaultTtlForTcp</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbLeaseDefault.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;imgSideImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbNewClientMac.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="tbDomainName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbDefaultTtlForUdp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="&gt;&gt;cbTimeServers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ipDNS2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ipNetworkTimeServer1.Name" xml:space="preserve">
+    <value>ipNetworkTimeServer1</value>
+  </data>
+  <data name="lvClients.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ipNetworkTimeServer1.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="cbDomainName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ipDNS2.Name" xml:space="preserve">
+    <value>ipDNS2</value>
+  </data>
+  <data name="cbBroadcastAddr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 17</value>
+  </data>
+  <data name="cbGateways.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbBootFileSize.ToolTip" xml:space="preserve">
+    <value>This option specifies the length in 512-octet blocks of the default
+boot image for the client. The file length is specified as an
+unsigned 16-bit integer.</value>
+  </data>
+  <data name="tbAddrRangeStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="tbNewClientMac.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbDomainName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbNewClientMac.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBootFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="tbArpCacheTimeout.Mask" xml:space="preserve">
+    <value>9999990</value>
+  </data>
+  <data name="&gt;&gt;tbNewClientMac.Parent" xml:space="preserve">
+    <value>gbClients</value>
+  </data>
+  <data name="lblAddrRange.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;gbGeneral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ipNBNameServer1.Name" xml:space="preserve">
+    <value>ipNBNameServer1</value>
+  </data>
+  <data name="tbLeaseDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;ipNBNameServer1.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="gbGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="cbPingCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 331</value>
+  </data>
+  <data name="cbArpCacheTimeout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 17</value>
+  </data>
+  <data name="ipDNS2.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnUserClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbDefaultMtu.ToolTip" xml:space="preserve">
+    <value>This option specifies the MTU to use on this interface. The MTU is
+specified as a 16-bit unsigned integer. The minimum legal value for
+the MTU is 68.</value>
+  </data>
+  <data name="cbBootFileSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="ipNBNameServer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbLeaseDefault.Text" xml:space="preserve">
+    <value>10800</value>
+  </data>
+  <data name="btnCancel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ipTimeServer1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblServerID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="tbArpCacheTimeout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="&gt;&gt;cbArpCacheTimeout.Name" xml:space="preserve">
+    <value>cbArpCacheTimeout</value>
+  </data>
+  <data name="&gt;&gt;cbArpCacheTimeout.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnUserRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="cbDenyUnknownClients.Text" xml:space="preserve">
+    <value>Deny unknown clients</value>
+  </data>
+  <data name="&gt;&gt;tbLeaseDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbBootFileSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSubnetMask.ToolTip" xml:space="preserve">
+    <value>The subnet mask option specifies the client’s subnet mask as per RFC
+950 [5].</value>
+  </data>
+  <data name="gbOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 12</value>
+  </data>
+  <data name="tbLeaseDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="cbArpCacheTimeout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="btnCancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;imgSideImage.Name" xml:space="preserve">
+    <value>imgSideImage</value>
+  </data>
+  <data name="cbDefaultMtu.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cbDNS.Text" xml:space="preserve">
+    <value>Domain Name Servers:</value>
+  </data>
+  <data name="cbSubnetMask.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultTtlForUdp.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="lblInterfaces.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="gbGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 358</value>
+  </data>
+  <data name="&gt;&gt;cbEnableIpForward.Name" xml:space="preserve">
+    <value>cbEnableIpForward</value>
+  </data>
+  <data name="&gt;&gt;tbLeaseMaximal.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbNewClientHostName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 20</value>
+  </data>
+  <data name="&gt;&gt;cbDNS.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;tbBootFileSize.Name" xml:space="preserve">
+    <value>tbBootFileSize</value>
+  </data>
+  <data name="tbAddrRangeEnd.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ipTimeServer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 223</value>
+  </data>
+  <data name="lblLeaseDefault.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUserAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;lbInterfaces.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDNS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbBootFilename.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="gbGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="cbNetworkTimeServers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 17</value>
+  </data>
+  <data name="cbPingCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="&gt;&gt;lblLeaseDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbLeaseDefault.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblBootFilename.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnUserAdd.Parent" xml:space="preserve">
+    <value>gbClients</value>
+  </data>
+  <data name="cbDefaultTtlForUdp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 172</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="cbDefaultMtu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 198</value>
+  </data>
+  <data name="&gt;&gt;ipNBNameServer1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblBootFilename.Name" xml:space="preserve">
+    <value>lblBootFilename</value>
+  </data>
+  <data name="&gt;&gt;lblLeaseDefault.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cbPingCheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cbGateways.Name" xml:space="preserve">
+    <value>cbGateways</value>
+  </data>
+  <data name="&gt;&gt;lblLeaseMaximal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ipNewClientIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnUserRemove.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ipBroadcastAddr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 321</value>
+  </data>
+  <data name="ipSubnetMask.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblAddrRange.Name" xml:space="preserve">
+    <value>lblAddrRange</value>
+  </data>
+  <data name="&gt;&gt;lbchMAC.Name" xml:space="preserve">
+    <value>lbchMAC</value>
+  </data>
+  <data name="&gt;&gt;cbDNS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbGeneral.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gbClients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 167</value>
+  </data>
+  <data name="lvClients.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cbDNS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 17</value>
+  </data>
+  <data name="&gt;&gt;ipSubnetMask.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="cbDefaultTtlForTcp.Text" xml:space="preserve">
+    <value>Default TTL (TCP):</value>
+  </data>
+  <data name="lblServerID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbDefaultTtlForTcp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ipBroadcastAddr.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lbchIP.Name" xml:space="preserve">
+    <value>lbchIP</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultTtlForTcp.Name" xml:space="preserve">
+    <value>tbDefaultTtlForTcp</value>
+  </data>
+  <data name="&gt;&gt;ipNBNameServer1.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="&gt;&gt;cbSubnetMask.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="cbNetworkTimeServers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnUserClear.Parent" xml:space="preserve">
+    <value>gbClients</value>
+  </data>
+  <data name="tbLeaseMaximal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 284</value>
+  </data>
+  <data name="btnUserClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 109</value>
+  </data>
+  <data name="ipDNS2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="ipBroadcastAddr.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEnableIpForward.Text" xml:space="preserve">
+    <value>Enable IP forward</value>
+  </data>
+  <data name="ipTimeServer1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="lblLeaseMaximal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 284</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultTtlForUdp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSubnetConfig</value>
+  </data>
+  <data name="ipNewClientIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="ipNetworkTimeServer1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblAddrRange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ipGateway2.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;ipDNS1.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="cbDefaultTtlForUdp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbDenyUnknownClients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 310</value>
+  </data>
+  <data name="&gt;&gt;ipTimeServer1.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="lblServerID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 19</value>
+  </data>
+  <data name="cbSubnetMask.Text" xml:space="preserve">
+    <value>Subnet mask:</value>
+  </data>
+  <data name="lvClients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 45</value>
+  </data>
+  <data name="ipSubnetMask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 321</value>
+  </data>
+  <data name="&gt;&gt;cbSubnetMask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbBootFileSize.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ipNBNameServer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultMtu.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="ipNBNameServer1.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="cbSubnetMask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 17</value>
+  </data>
+  <data name="btnUserAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="tbNewClientHostName.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="tbAddrRangeStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 212</value>
+  </data>
+  <data name="cbEnableIpForward.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbTimeServers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 205</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="gbOptions.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbDefaultTtlForUdp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbchIP.Width" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultTtlForUdp.Name" xml:space="preserve">
+    <value>cbDefaultTtlForUdp</value>
+  </data>
+  <data name="ipServerId.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgSideImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="cbDNS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="tbDefaultTtlForUdp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;cbDenyUnknownClients.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="imgSideImage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAFvtJREFUaEOtmgdY
+        VNfTxoe2CEhn+y6oiNJEFFFsiAgKFoqNqhSJXbGX/I0dCxEVFaWodHaXKogmYscexdhb7A0pCsQWo3G+
+        ORchajTJ8+Tjed49d+8uy/zOvDPn3Luobd64CXT19MrLyso2OnTskJenygMdHV2ornoC6uoaoKHBpAaA
+        8OFHDdS4p+yBHtXVwLlbN3qNjuk97G3IHum19+/Zr9Az7vg9J7FEDJqamtyxpWVbqKx8DMbGxi5GRsb+
+        BoYGNppaWoDv35/77fVvLwwMDWN52jz6e/S3SPTIHaupq4OFuTkYGhoCZKVnHHn39i2+eP4cY5YvK1Ll
+        KBJde/aG9vTh1m2twLZde7C3sQEHW7tP1MHGFjqw83b2EBUR2awx4RHAFBkWDhGjwyB81GgICx0Fo4JD
+        ICQwCGbOmA7z586BObNmaiVtSdx86uRJvHvnDj5+/Birq6qwproan9bWcsfnzp/HQ4cOdSLB4cOH4XB5
+        OZQfOQJHjx6F+/fvQ0NDA0BhfuGvNEN46eJFbKhvwOLCIuzdvYdP29atoV0bSw7ExqodB2LX3voztQcH
+        GzsKtjHgz8UBfBR8cAABTJ8Oc2fPHlBashNv3ryJt0g3rl/Ha9eu4/179/Dhw0fIoEp27MD83LxSFng5
+        Bb4pPh42b9gAmzduhMSEBLh37x4nyMrMvFFTXcMY8PLFS9wHKBQKbCWTd2xjbgGcLCygrUUrsGrdplEE
+        1q41iUZ7axtupr8kNvujQ0IhNCgYQgICIXDkSJgeHd297Icf8fRPP+Gxo0fx+NFjeOL4cbx65QruKi3F
+        5KQknDh+/LcrYmKgqLCQC3585JhmgC2fA3S07wCe7h4+b978hi9fvCSIi3j2bAXOnT1HSXaC3SU7obS4
+        GHYW74DSHSU0lsAues7OldK5XEUOhIWM/mAVssuoUTTrjc+bgw8KgqARI2HksOGwf+++amaRkpIS3Ekq
+        +2EPHth/AM9WVGDsqtWX3VxdgQCAAcQsXQrREyfBhDFRkMAyQMFv2bTp0wwkbEqA/v08YNniJdmvXr3C
+        Fy+e46uXL3Hf3r2YkZYuJktBQa4K8pWNyuNGJeSrVFCYlwtFeSpQZmXC9GnTYEY0iUbu+CMx28yczp3r
+        8ebNG6QCxd2lu7AgLx9//OEHLD90GA/u34/D/P0TScD+ZlFBYSPApMnSmKXLKrYmJw8kweeCjLQ0CKTZ
+        oTdB9OQpS48eKefs9JRspcjMxB0FRaKC3FwuYBY8B0DHHIBKSWocVQpSDhsVoGQjSUkZ/FgH9x84wn04
+        /VRVPuF8ThnFo0eOYK5SiUEBAZvi1637GCAlm2Kgz8PkxERPEnwuWLsmDob7D4WlixbD7JkzwdKilXpY
+        cOgZVhc1VdWoSM9AClb0JwDNPmWggAJnmWHBF6g+DfTTwHOaIILu3b33vgng999/xxPHjuMOahplP+7B
+        YoKZMG4cEkAMZWA0ZQD3lpVhQX4BcwJuit/II1EtfCpYE/s959WxUVEQPDIAPN3cYfyYb8CtZ6+Kurpn
+        WP/0GWanp2GeUilstBADoOA/AuAyoVRATlb23ympmibk45/n1LoP7NuHu3ftoho4i6tWrMAVy2O4mrhO
+        nYllR5GVjdmZWbe/FDw7B6tXrqQ+PRqWL1kCAcNHQPcuXSGEQAa494Punbqcra2pwbq6esxKIwiFUpCn
+        JDsxG3Gz32QjygKBZWVkkDK/ooz0169efwLAnjTU13EdiLXOpC1bcGN8PN65cxsvXrhAtlJgcVERJiZu
+        6UiCL4mr9gjqGMxCw3z9YLCXN4z0HwZe7h7Qt0cv6NrR8ae6Z8+wrvYppm/dhrkKpbS5iD9YiGWgKFcJ
+        JXlNEAzkc6XnvHv37hOAuro6XLVyFV69ehUvX7qEF6kDbtqwkQNi1mJrRZ4qd9fXgmfnYTkVL1uAli5e
+        DH6Dh8AQ74EQNHwk9CcrefTqA65dXcC1W48rDQ31yLKRkcoyoRCwmmiqgUKa/R0EsJM6UiY1hczUdBrT
+        uQaRmZoG9DuQnpq2i3Ug9vPwwUOk2sOQ4BD08/GlHcBypFUVz587x7VTloV9ZXtZXVQQwBdnvgkKlpF1
+        2NLPMuAzcBD4DhwMgcNGwIC+/cDb3ZNGd+jfpy/0dulxtb6+nuxUh1mpqVxNFFDAjZ2oEYB1q//FpUCw
+        vy8E+ftxYzCNQUP9gHz8iG1XjpYfJlsUYGhgILq59sE5s2bj2Khv8Pq1a9xKfOPGDdxPdUFdrZIA4B8B
+        llDgbC/DAAbT7PsNGkIAw8GLAPr1cuXGQZ4DOKDunZ2vPK2pxXoOIg0LVEphE0Ax2YetC9+tTYGQob4k
+        PwgdPpQTgRiX7d5Fe57beGDvHuoo8biLFrEBnp4YMGIkjhvLus96ZJ3pFwJgMNTJfvm8DX/pOSxe2AjA
+        QDgAshEHQEXMAAa49eOC9+rrAe7dXcGlc5fTNbU1XHfKoe5UoFS0ZRDFlIFCqolZ6xSgFVoA/GFJoDsy
+        DTSHpsHCmQtLczMK8Vj5Ibx/9w4mxK/H8z9X4PxZs9Ctd2+uDh7cf4BPKivx9q1bSDtULMwveH3s6HH4
+        J3GBR4UTAIEwAF/KQMBHAP3JQoM8vbhMeJKVWGH3ciII2i2yTKgyMlkmWhcxKxHE7HU5oBmcD2bDEkE3
+        IA3AOXVF+1HFOGdFPhZl5+H1K5cxOyMDY1fEYOzKGMzJykRW3Gz1ZzXAipeJ1QAFb/OPAMw6UVQDixct
+        Ap9BjTUQwGqgKQMcwADKiCf07+0GHiT37r2YrtVRJp7VVKEyLRUpC0Y/FlIGYjNBKyiPMpAI6t1SF2sP
+        OYhaQytQEPYz+s0sxuxtOXj+7BUCuYKXL1/CazSuiY0tzkzPeEgWuZGZkWGqUubqEMA/zj6D+7MLUQa4
+        LuTV2IWYhTx6u1I3aqwBBuDp2pcs5Q5eNHpRNty6Op+rfPwIn1VXoSIj4/0PBSqdOd/ngEZwAfCcNsYK
+        Bu5AtZ6lCI5ZaDPnNhqEXsEe43bijtxSWqz244L584sV2TmXCAAIgFuxCQAIAP41QMyy5RBO22HWRof6
+        +sKg/l4QTHujxhrow7XTgZ79uY7k2cedINwoE6y4WZvtCW4uzocrHz/E2upKLFZmvf9mQZYe9CxYNM9/
+        AT4cNgSLBCKE/qfQJLoa7b97hNDnLPYL2fBqwfw4JQEAAdBu4D8ArF6xEsJDRhHAEtoTDQNvj/60EgeC
+        N+1QGzPQ96MMUNC9+8AAyoB3X8qGay+CdAH3bt1KHj+8jw3PavF/q7Nx9cCp+OLIIXwSFYkXOltiuUSC
+        TnG/otOSaoSeJxDaJ0rj166F/xeAuNhVEB4cBMsXLqR+7U/WcIXRw4fDQDcKvnt3GECzPIiC9XZzA8+e
+        PcCjB53r2Yt73as3Hfd2ofd1BVs7z+Tzl29izc2L+LriDD6JCMNUgRC3C4VY0aE13razQnW/Cwiddk1X
+        90iC+Lj/DtBpQiJAh4nbwH7SdugwmUSjw+RU6DglFTpFp0HnaenQZUYmuMzOhp7zssH1fwrouzAX3BcX
+        QN8lJeA4JRfaRxeCc1Qq6Hf5fnmcmQT/ePs7/l75AO97e2OJ3BxjzMxwh0SMD3z6Yp+OIQp1/92g4ZEM
+        /zUDLHgOoOPElE/kOCkFOk1OBiemKcngPHU7uMxIhV6z08B1bga4f5sF/b5TQdc5BeA4qwCsZu8AsXtS
+        /KLgBHxedgCfxsRgzcKF+GzjBnzg64tlFhb4KCgQq+fPw91Sacx+urNwmHSMdIhUoaMDJ+jOx146PqOr
+        /a+L+OsABNQIkMJBdGEA05sAMgkgG7rPUEL3ufngNDMXTAOL4sf5xuHTuHX4aKAXqgQCPGFvj9WzZ2M9
+        XYzU0y72WVwcZomEGM/nY7JQaP93ACcJ5gADpFsnX1sD7GfuhCb9JQMdKQOOHwC6cBnYxgH0/JCB7rMU
+        0HuWCnrNzwdZoCq165r76GX3DR4hm2SR35nns/kCPN+tK755cI/s9ASv9emDhVTI2SIRJhBgilBo8bUM
+        fAxwlEBOamvBeZEhXLMUwQ0rCae/BXCkmecApqTQ7Kc0AnywUNfoDOg5Mwt6zciGtqPy8kPTH6JxaDny
+        DAPQT1sXC8VC3EABpvKF+HjoUHy6fj0+9PfDusQteHfwYNxjaYkqAkli7xEKx3/JQv8ZgGWg86RGAKcp
+        W8F5WmMNdJmcDi7R6WSfTGgTkLllQWklWkw6g2A0A8E+E2HkLzhP1xCVlIE7Hm5Yu3ghgQhwGz2vnjYN
+        6+ha4o6XN+5p2xbzpVIOIlEgeFQgl39SA/8dgNVAMwBlgQAcJzKANE6tA9JXbyqvwQ4zf0YwnIRguQnV
+        vI4iL/QSto+rx4uefnjCsjXmkOcVYjFmkm0yhQKsmTsXX5YfwcchIXjS0RFLW7XiaoIpSySa2FTE/wag
+        y+xSaNJfa+BDETP/syw4jN0GjhOorU7cDjL/bZsyTtWiW8wNmvmJCBZrUM3jAGqNPINtF9zHsaUv0XLd
+        c4Tway/m6Bsb5onFr3JpthnEDrkM67ZtxVdnznAQ5ba2zEa4ngA2kDYJBL/mm8vg3wCwOmgXuZ3T1wGm
+        JoNdVAp0IAD7sdtB6rM1NuNYFQ5LeIBgMAVBugLVXPeitt9xFEffwKj8BuwaV4W8QFpp/Q91y6Sbvid5
+        PKAgXyvI9wqRGH+kWa+ni6HfrlzFx6NG4zE7Ozb7uK4RAONoVIglY5q60NeKmAHwhNacvgCQDJ2piO3H
+        bAX7SIKI3AqiIclzFxfcwZD0mkbP8xehWo+dqD2kHM0iL2Bwei0OSKhC3VGnUcu7cLnG1HLIoDvae9XU
+        gbzOIFBFmSikTrWPaqBBpcI3t2nfP3YsHrNthFj7AWINjfQ7WayN/h0AgzDVpjb18ULGFjEmm8gksB2T
+        ArYRSSD2Tho1OuEcjlI8QzCZjWA8B6HLDuQNPIQGIRU4ZFMlhhKAUXgF6niprhqOLQF5BN1eodvgeymI
+        fTSSRXqxYmaznCkUYXk7K3xOV2hvq55yEEdsbJozsZHewzJCtlP+EwCDaAZggbMOZBNJgbOZH5MMIu/N
+        /XvNK8eQnHoEq9UI+jT7jkrU9NyPuiNOYu+V93C8shalEy5Q8PnvzMLzwXBaGZiHZUI2Bb6HAMpo/IFE
+        xXqF1QLzfBZBnHJwwJd0R+4t3UCrjIjAQ+3aNWeiqbjThMLsL60DTevBnwAfgreOSAabCIKgmRcN2uLc
+        YWIZeic+RS2nzQh60Qh2Oajhvgd1/E6g48JbOCP/GVrOuIJ63oWo02tzG2lYIvCpsJx9l0AeZZdJSRAq
+        stIyU1NgGSiUyzmvM9sct7HFl3Rn+l1dA1Z+Q4uhtfUnEKy4syXiFZ8vZH8BcKTOY0OzbkMA1uHJIPDa
+        LLMZU4qDUmpRz0NFwVO7tE2not2D2r7laDXzKk7Jq0WHb2+i3pCdqNtzc7ApXYFJw5LBLDINuvksbgbI
+        J4hcgsijLMw0NvZjK3UxFTPzejpBnLK3o91rBf5BN5Yr6dbixxAsW5sJurRdq5Efr8R/BWBFOy6Vuk06
+        Bb+lpWVoEXpRUZoML6PgJ1Ov30b7+N2oNfggSsZdxgmKWnRZfhd1ffagbo/NWwR+FHx4EkjCkgggFVx8
+        FjYDsCzkUEdSEMB2+o6IauE0W8h20CYvlnaq6bRecBBnz+IfdN/oycSJzTXBCpvZibYeuN/RWvRx4E3H
+        YE1b4rbjVNB+rAJsJ+SA+UhVg0fcfbQYf5ra5TTq9WSfbiXI8z6ApuHnMCy1Cr3XP8KW/lQHPRLPmfkk
+        gfxD8JKwFBBQBnoOWQhs5ptsxI0EkUffcq0gK80yNsZD7dtzi9n3HIQIT7OaoC88/nj9Gp9MmtScCfY6
+        sxKrn4MdrdU+hwCrsUqSCtpFKUDol3m9x8JLaD2XFiqTBQhma+gCpBA1PfahQfAZHJrwBEO2VaNB0EnU
+        cd3+xsxnK1iQ5WSjafbDt4KEZl84eB6YioTgxOdDAQXeBMJGFWUhlzTWwMBmsakpnqEVmWWCBckCPEW7
+        WFYTb2vq8HFEOB6hxY7Vymp6nW0C8y1kT5iV7li3ahYHYEkyHZSV6zTnZ+y7thI7zruK3aZXoIn/QVR3
+        2YUtRp7Cvt/fwzEZ1Vzf1+6bhdpd1pqKA+NBFJgAoqDNIApOAZH7FBAJ+SAQi0kibrQW8DkIJiUFryIb
+        rafxGwODYcsZRKdOWEIQrCZYsKc6dMAXBw7gm7sPmlssdSNcRRBsLHOwWv0JQLuJ+WA8SBFoN/Un7L3q
+        IdpOv4LW0Zex94p7GLH1MbaffAHtv/0FozJqUDTuCmr3y0Ntpzhfo/4JIA5JBFFoKoh6RoDIzBhEFKyI
+        Zl8kEnESkgQkPslCKOQyoiKtI4A1pHEGBi4M4jRB7CI7se7EMnGSVujndMv9zb1HWBkZiceoRrZS8CwT
+        BXSVd7CTvVUTBEh9Y0EcsAu7Lr2PWm4/IrRKTQaLtCAdn/Jf7Wddw34r7mJkWhW2mnIVee5FyHPesNzQ
+        O5EsQwXfJQj4Rnog5ps0Bi8UfALQBMFA+CIx8MUSEFFm1lNbjaOaYJpqaGi+lCCYXfZYWTVt7ui5DTbk
+        5OAb+hazMiqKe512r3iIxjMuLlerHDoAE7TsutrIPGQPisLOUbfJfun03VWATmnQZlGVf9vpN7DL3Oto
+        M+smanlQF+qauNNg8HYw7TwC9DTVwEBHA/imRiBmwXMAbPb/zMDHAFwmyFJm9EW3KUHw9A0gjq3SlJHv
+        TEyAZWJ369a4u00bZKtxDmWinBa3um3b8PXP5/FxWBhWODlxG8FTzs4hVQ4OBOAAoNtxmZ5gQBryA8+g
+        Wp8DaLu6vs2s0+9g3sP3RQ6LHmHrCWQb2rBpuWTc0h+SDsZdQkCfB6DHYwA8EJh8DtBon89t1AxAEKYk
+        LQLQJGkYGMK2D9aiOniyUybDUnNzbttBu1k8TN2qLjmZauImNiiU+IxuDDcFzwGIhqyEFs4brluE7Ed+
+        5FV03PIalz56jxt++Q1tZtxBfsQNVHdY/1TfvxDMWrYAM0M90NNWg5ba6qBPF+HNGaDi/fsMMAtRBr4A
+        YCqnfxuQyri2S5aK30m712JaK9g6wFrsLTc3ujStxD/evcXjcrnHdcp0k0CHuoKGjlTcwn4hSobtQSvy
+        uuN3D7HN+JtoHHAWNWxjHvI0W+hIjFuAxKwlSAXGoMtT06QMaOvwNPRMjFoaioV8I6HAzEgkEBgLRUJj
+        mn2TJpH/TZkEIqEpAZgRgCllwJgyYEAZaEEZ0GwCMCAIHaqVgdraPuwaupS0n4q7cswY/JW+alKKROHa
+        prSBa2HwpwhAw0gbTFvqGPbXlA67yLNbjjzHeNSyi0Etk677WmppjNHXUp8gNmm5SGTacpmEb7TWXCLY
+        IBMLkkjpMrEoRyoRkyTZUqkkUyqVZpEyJBIJUzodM6VJGpUqlsnSRDLZdpFcniKUyzcIzC1iCWAFZeA7
+        AphNANE8dQ1fcw2N+XQHA2/RWnFQJqt11tIK0VBTkxFAWwLQaYZgGTDR5/EFhppifZ4Gv6WOnr2ujkF3
+        A22egxFPraPEVN9dLjAeJBeZ+cjEZsNlEv4ouUQYKZWIxsul0qlymTRaLpNNlcvlnMw/iIKeSprWdJ7G
+        KUwyel1KI2myRG4+XiQ3jxDIzUPN5OYj+BathpiaW3gbS2UexpqaTqQOUg0NJy11NSFPTU2qZyZsrW1s
+        JgDNFhok4KRDrcy0JQ/4+prkcS0wNTIEYxJfXxvEBppkG32QCUxALjIFmcgM5GI+yCRCIACQSyVAACQZ
+        UHCfiIIHps/PEwBQ8JwIAAgACAAIAAgACAAIAGR0NWdB/3pjT/+a05JkQCIAIIDGwD/o/wA3y9Lks08v
+        DAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ipNetworkTimeServer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 185</value>
+  </data>
+  <data name="btnUserClear.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbBootFileSize.Text" xml:space="preserve">
+    <value>Boot file size:</value>
+  </data>
+  <data name="cbDefaultTtlForTcp.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ipBroadcastAddr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;cbSubnetMask.Name" xml:space="preserve">
+    <value>cbSubnetMask</value>
+  </data>
+  <data name="cbNBNameServers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 17</value>
+  </data>
+  <data name="gbClients.Text" xml:space="preserve">
+    <value>Known Clients</value>
+  </data>
+  <data name="btnOK.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ipDNS2.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;ToolTipConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInterfaces.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="tbDefaultMtu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbDefaultMtu.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="cbGateways.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="btnUserRemove.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ipGateway1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="&gt;&gt;ipServerId.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="&gt;&gt;ipDNS2.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="&gt;&gt;lblInterfaces.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbArpCacheTimeout.PromptChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;lbInterfaces.Name" xml:space="preserve">
+    <value>lbInterfaces</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>726, 555</value>
+  </data>
+  <data name="&gt;&gt;tbNewClientHostName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ipBroadcastAddr.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="cbTimeServers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 17</value>
+  </data>
+  <data name="&gt;&gt;tbAddrRangeEnd.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="ipTimeServer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbNetworkTimeServers.Name" xml:space="preserve">
+    <value>cbNetworkTimeServers</value>
+  </data>
+  <data name="&gt;&gt;tbLeaseMaximal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblServerID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbAddrRangeEnd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbNetworkTimeServers.Text" xml:space="preserve">
+    <value>Network Time Protocol Servers:</value>
+  </data>
+  <data name="&gt;&gt;lblInterfaces.Name" xml:space="preserve">
+    <value>lblInterfaces</value>
+  </data>
+  <data name="cbDomainName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="lblLeaseMaximal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ipDNS1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbEnableIpForward.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbBootFileSize.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="cbDomainName.Text" xml:space="preserve">
+    <value>Domain name:</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultTtlForTcp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultMtu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbAddrRangeStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="cbBroadcastAddr.ToolTip" xml:space="preserve">
+    <value>This option specifies the broadcast address in use on the client’s
+subnet.</value>
+  </data>
+  <data name="gbOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>507, 358</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultTtlForUdp.Name" xml:space="preserve">
+    <value>tbDefaultTtlForUdp</value>
+  </data>
+  <data name="&gt;&gt;cbNBNameServers.Name" xml:space="preserve">
+    <value>cbNBNameServers</value>
+  </data>
+  <data name="cbEnableIpForward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="&gt;&gt;tbBootFileSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ipBroadcastAddr.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="lbchIP.Text" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="cbGateways.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="lblAddrRange.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbLeaseMaximal.Mask" xml:space="preserve">
+    <value>999990</value>
+  </data>
+  <data name="&gt;&gt;ipServerId.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblAddrRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="cbBroadcastAddr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 298</value>
+  </data>
+  <data name="tbDomainName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="ipNewClientIP.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;ipSubnetMask.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultMtu.Name" xml:space="preserve">
+    <value>cbDefaultMtu</value>
+  </data>
+  <data name="&gt;&gt;tbBootFileSize.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblLeaseMaximal.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnUserRemove.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ipNetworkTimeServer1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cbTimeServers.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;cbGateways.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;ipSubnetMask.Name" xml:space="preserve">
+    <value>ipSubnetMask</value>
+  </data>
+  <data name="ipNewClientIP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="cbBroadcastAddr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cbDenyUnknownClients.Name" xml:space="preserve">
+    <value>cbDenyUnknownClients</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultTtlForUdp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbDefaultTtlForTcp.Text" xml:space="preserve">
+    <value>128</value>
+  </data>
+  <data name="&gt;&gt;cbDomainName.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="btnUserAdd.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblLeaseDefault.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="&gt;&gt;tbAddrRangeEnd.Name" xml:space="preserve">
+    <value>tbAddrRangeEnd</value>
+  </data>
+  <data name="tbAddrRangeStart.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;lvClients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbBootFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 18</value>
+  </data>
+  <data name="&gt;&gt;tbDomainName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbDNS.ToolTip" xml:space="preserve">
+    <value>The domain name server option specifies a list of Domain Name System
+(STD 13, RFC 1035 [8]) name servers available to the client. Servers
+SHOULD be listed in order of preference.</value>
+  </data>
+  <data name="&gt;&gt;cbBootFileSize.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="tbAddrRangeEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;lblBootFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbLeaseDefault.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="cbPingCheck.Text" xml:space="preserve">
+    <value>Ping check</value>
+  </data>
+  <data name="&gt;&gt;tbArpCacheTimeout.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbLeaseMaximal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;gbOptions.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnUserAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 17</value>
+  </data>
+  <data name="&gt;&gt;gbGeneral.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblInterfaces.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ipGateway1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tbArpCacheTimeout.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;gbOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ipNetworkTimeServer1.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="tbAddrRangeEnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="ipSubnetMask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="&gt;&gt;tbBootFilename.Name" xml:space="preserve">
+    <value>tbBootFilename</value>
+  </data>
+  <data name="&gt;&gt;tbArpCacheTimeout.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;tbNewClientHostName.Name" xml:space="preserve">
+    <value>tbNewClientHostName</value>
+  </data>
+  <data name="ipNewClientIP.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnUserAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 40</value>
+  </data>
+  <data name="ipNBNameServer1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;cbDNS.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="cbGateways.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLeaseDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 260</value>
+  </data>
+  <data name="gbClients.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbNewClientMac.Mask" xml:space="preserve">
+    <value>&gt;AA:AA:AA:AA:AA:AA</value>
+  </data>
+  <data name="&gt;&gt;tbAddrRangeStart.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="ipServerId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="tbBootFileSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="&gt;&gt;tbLeaseMaximal.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="tbDefaultMtu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;ipTimeServer1.Name" xml:space="preserve">
+    <value>ipTimeServer1</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultTtlForUdp.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="gbOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;cbEnableIpForward.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="ipNBNameServer1.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnUserAdd.Name" xml:space="preserve">
+    <value>btnUserAdd</value>
+  </data>
+  <data name="cbPingCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbBootFileSize.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="cbNetworkTimeServers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 162</value>
+  </data>
+  <data name="ipDNS2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 136</value>
+  </data>
+  <data name="tbLeaseDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 258</value>
+  </data>
+  <data name="lbchHostname.Width" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="cbNetworkTimeServers.ToolTip" xml:space="preserve">
+    <value>This option specifies a list of IP addresses indicating NTP [18]
+servers available to the client. Servers SHOULD be listed in order
+of preference.</value>
+  </data>
+  <data name="ipGateway1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 43</value>
+  </data>
+  <data name="&gt;&gt;tbAddrRangeEnd.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="cbGateways.ToolTip" xml:space="preserve">
+    <value>The router option specifies a list of IP addresses for routers on the
+client’s subnet. Routers SHOULD be listed in order of preference.</value>
+  </data>
+  <data name="tbNewClientHostName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ipGateway2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="lblInterfaces.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbAddrRangeStart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbDomainName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ipServerId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 34</value>
+  </data>
+  <data name="&gt;&gt;tbNewClientMac.Name" xml:space="preserve">
+    <value>tbNewClientMac</value>
+  </data>
+  <data name="cbDefaultTtlForTcp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cbPingCheck.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="cbDefaultTtlForUdp.Text" xml:space="preserve">
+    <value>Default TTL (UDP):</value>
+  </data>
+  <data name="cbDNS.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultMtu.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="ipServerId.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnUserClear.Name" xml:space="preserve">
+    <value>btnUserClear</value>
+  </data>
+  <data name="ipGateway2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 67</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ipNewClientIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="tbNewClientMac.Text" xml:space="preserve">
+    <value>FFFFFFFFFFFF</value>
+  </data>
+  <data name="lbInterfaces.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnUserClear.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lvClients.Name" xml:space="preserve">
+    <value>lvClients</value>
+  </data>
+  <data name="&gt;&gt;cbPingCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblServerID.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;ipGateway1.Name" xml:space="preserve">
+    <value>ipGateway1</value>
+  </data>
+  <data name="cbTimeServers.ToolTip" xml:space="preserve">
+    <value>The time server option specifies a list of RFC 868 [6] time servers
+available to the client. Servers SHOULD be listed in order of
+preference.</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultTtlForTcp.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lvClients.Parent" xml:space="preserve">
+    <value>gbClients</value>
+  </data>
+  <data name="&gt;&gt;btnUserClear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbDefaultTtlForUdp.ToolTip" xml:space="preserve">
+    <value>This option specifies the default time-to-live that the client should
+use on outgoing datagrams. The TTL is specified as an octet with a
+value between 1 and 255.</value>
+  </data>
+  <data name="tbNewClientHostName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="lvClients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 116</value>
+  </data>
+  <data name="cbBroadcastAddr.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ipDNS1.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="&gt;&gt;lbInterfaces.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="&gt;&gt;ipGateway2.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="&gt;&gt;cbNBNameServers.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lbInterfaces.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPingCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="tbDefaultTtlForUdp.PromptChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;tbDefaultMtu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ipNBNameServer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 272</value>
+  </data>
+  <data name="lblAddrRange.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbNewClientMac.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbLeaseDefault.PromptChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ipDNS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 110</value>
+  </data>
+  <data name="tbBootFileSize.PromptChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="tbDefaultTtlForTcp.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="tbDomainName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 18</value>
+  </data>
+  <data name="lblLeaseMaximal.Text" xml:space="preserve">
+    <value>Maximal lease time:</value>
+  </data>
+  <data name="imgSideImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbDenyUnknownClients.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbDefaultTtlForUdp.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="tbBootFilename.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 8.25pt</value>
+  </data>
+  <data name="ipServerId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="ipDNS1.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="cbDenyUnknownClients.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaseDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="gbOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ipBroadcastAddr.Name" xml:space="preserve">
+    <value>ipBroadcastAddr</value>
+  </data>
+  <data name="&gt;&gt;lbchHostname.Name" xml:space="preserve">
+    <value>lbchHostname</value>
+  </data>
+  <data name="tbDefaultTtlForTcp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;lblAddrRange.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tbDefaultMtu.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="cbEnableIpForward.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tbLeaseMaximal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="&gt;&gt;cbTimeServers.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;tbArpCacheTimeout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnUserRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;gbClients.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbSubnetMask.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="cbDefaultTtlForUdp.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="tbBootFileSize.Mask" xml:space="preserve">
+    <value>999990</value>
+  </data>
+  <data name="&gt;&gt;lblServerID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbArpCacheTimeout.Text" xml:space="preserve">
+    <value>ARP cache timeout:</value>
+  </data>
+  <data name="btnUserClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 40</value>
+  </data>
+  <data name="btnUserClear.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ipTimeServer1.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;cbDenyUnknownClients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUserRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbDefaultMtu.PromptChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblLeaseDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="lblAddrRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 190</value>
+  </data>
+  <data name="tbAddrRangeStart.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="cbTimeServers.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbchMAC.Text" xml:space="preserve">
+    <value>Hardware Address</value>
+  </data>
+  <data name="&gt;&gt;cbBroadcastAddr.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;cbNBNameServers.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblServerID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbLeaseDefault.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="tbLeaseMaximal.PromptChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="ipDNS2.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="cbDenyUnknownClients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 17</value>
+  </data>
+  <data name="&gt;&gt;cbBroadcastAddr.Name" xml:space="preserve">
+    <value>cbBroadcastAddr</value>
+  </data>
+  <data name="&gt;&gt;cbBootFileSize.Name" xml:space="preserve">
+    <value>cbBootFileSize</value>
+  </data>
+  <data name="btnUserAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="lblBootFilename.Text" xml:space="preserve">
+    <value>Bootfile name:</value>
+  </data>
+  <data name="&gt;&gt;lblInterfaces.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ipBroadcastAddr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="&gt;&gt;cbEnableIpForward.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ipGateway1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="btnUserRemove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbNBNameServers.Text" xml:space="preserve">
+    <value>NetBios Name Servers:</value>
+  </data>
+  <data name="cbNBNameServers.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbAddrRangeStart.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="tbLeaseMaximal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnUserAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBootFilename.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterfaces.Text" xml:space="preserve">
+    <value>Interface:</value>
+  </data>
+  <data name="tbDomainName.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="cbDefaultMtu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="&gt;&gt;cbNetworkTimeServers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbInterfaces.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;imgSideImage.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="cbEnableIpForward.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 67</value>
+  </data>
+  <data name="ipTimeServer1.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="tbBootFilename.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ipTimeServer1.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;tbNewClientMac.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbLeaseMaximal.Name" xml:space="preserve">
+    <value>tbLeaseMaximal</value>
+  </data>
+  <data name="ipGateway2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbAddrRangeEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 234</value>
+  </data>
+  <data name="cbBroadcastAddr.Text" xml:space="preserve">
+    <value>Broadcast address:</value>
+  </data>
+  <data name="ipSubnetMask.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gbGeneral.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbSubnetMask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 298</value>
+  </data>
+  <data name="ipGateway1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="ipGateway2.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;gbGeneral.Name" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="&gt;&gt;ipNewClientIP.Name" xml:space="preserve">
+    <value>ipNewClientIP</value>
+  </data>
+  <data name="&gt;&gt;ipGateway2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tbNewClientHostName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 19</value>
+  </data>
+  <data name="lbchHostname.Text" xml:space="preserve">
+    <value>Hostname</value>
+  </data>
+  <data name="ipGateway2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnUserClear.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAqhJREFUSEullUtoE1EUhu1OirSxLSTYRZuND3wU3birexU3WQiCoqAiuHMlogsXblQo
+        FCykSdO6U5KI2iCIiliQqtjUJmmbR23SpMnk3aR5TF7N7z13nLRKatJ44WRyZ+Z+99xz/nOmDcAuGmaz
+        2couSj7Z6WijBewHiGg0mhN8OYHJTCZTkF3rjo1qFTmxhHSmsK0l1/L4zeC8psGFYhmZXLGuZel+prhz
+        MB2jXNmAWCjXNQIHw2utg8nrvy0vFhGLp7HkFVoHF0sVbDWRbZTPFeALxGGb97YGpgSWyhUeimRKxFpa
+        ZInMI5pIYd4VwNdZZ+tgOc6kjlg8i5CQhGc5hFmHF5+/WMEk65dVVl8Vgh/Td+5hrL0DePeCS7DCkkce
+        k+xSL5/zZ/TOz7kFzDl8+G51kcer/wR/vHYDxj41YBrlgOpbE08aQfNvzNKGQ7dhUipB7y66g1hwBhqH
+        gi98eAv+i6eBiUccJL5+hsyksQZdPN4PnOzlc68/xlQRaQx2TTyVAHevwK85Bege8LnsqWNgEzo9NIKV
+        1QSHN6w8UoBzXIJXb56DZ/AwoL3Pj287tgn9NqxFUEghEEpyeENwvsBiycyuN0jwswN436fCh35V7fgz
+        T3RMahkIkTSHkzUEy6Xr0I9Lxz9zBMbuLhgVCuCggt+beTyMaFwCh8KS102DOfT6JVhUPZjq7canfT2w
+        dOwBLp/n8PhyEOHoes3rpsBboe69kpdkLkUnLLvbgQsSPOIJNA+WknYVU2oVPF0S1DZqwA/tGP/v7vwT
+        Lse5occk+sn9B7CilnRq1xl4H6ZSluECg786dJQXSNPgpNtTK2k781SG8i/IegHWEX2tpH2OpeaTR81G
+        NrlNkvyopOVNUmwD6nKxRLYmu+1CYaUH/2lWuQn9AhLq14QRdUQcAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnUserRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 63</value>
+  </data>
+  <data name="btnUserRemove.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAABKNJREFUSEudlAtMU1cYx095FKgiREckurFsOrNsmrHoVMDBxIDgeCiKBAZkDLIExkMm
+        BQVEESgDBEeVR3kXUXkIWBgOECkOEGnRrsXytNKVuvKoOjIEjI//bllmxuLwcZJ77ndPzv93/vd83zk0
+        AORlLcObEcwwIFEMffKW4bIlWLqU0a1NHuc9mnlQ7pgw+2KABrzYk+HDMD+2x+Bp0n49ZH5tgILvjMBL
+        XA/+aRs0Ja06+n/aRaFloXoG5w/Qr5ZHGCPJywQxLnSkeDHACVyJWpYFLrNtpy9EGW1/EXxRcE6AgX2O
+        H5lrSbfESEch2MFbcNBOG/F7GcgNWYsalg244atYrw1meTCsWO5kqr3gK2B2AA9ll1EW74YwO30wHenI
+        CtmA7CCzstcGH3bSX3LUzUgy3JgEjDYBKj4w1gkRLwUVLA+k+69B4n7DjNcGawSHdpsmqLs4QH8JMFgB
+        3OEBEx3UIq04HfixNNKBvP1G4EDb5e/8epb5DDfSAdEpoLcQkBZT71xUxrlQwYuratHkaUTXcn2NRWUR
+        9yDKBrqoPF1PBoSp6DsX+oyX4GLxxmCNcLDc11nMDZ6GgHItOIGpliPghLs0L1b/CxxL3ic6faaE9l+B
+        KMjSsK81XThcdwzt+aHorY5CmD8rw923UuuljkVmhF5mSr9yxphUN/r7aZ3g8t9Ny/vZvvoAM7Zynckd
+        eWvzU/X0HG7LRjE7NweZTDlzMKJq2Ms7vzw5td42jFls8u9F5h0LVxGTYiNaozzkC8i8LR/lb/5UcvzH
+        2mF2cAxqLD/B3dR48Gy3oq2kApdae9HVPYjOrj5I++UQiUeQlcVHbFytIvp40c5/4PPgUkMiUMdtw/0E
+        G6gid2Bgnw3qnB0gdNgMVWIEVKUFUHEyIXSyRltFAzqEMgh6hnBDJINEKsdvijFMqKeQU9jQdzA276P5
+        i03Tda4gQZ3LyaSauQkPYj6DOswCY/42GGe6YzI1HOrcRMgjAiD094GgrQc3exUQ98pxS6rAwKCS2p7f
+        0dYhwaEjZ2YiYgv8noM1Qbsxse5ZTRRqz5WYifwQc4c3YjbeGdMpPhgNdsV1n/3ouSbFraEJ9A/cxdCQ
+        igKqqFiJ5hYRsjg/gRlditiE0rQFYM1Hky75XrmF+gkfHeAbBhBjjscJjrhhuwmC+nbcHpuDQnEPSuV9
+        jMgnKcejuMLvRfmFdhRym5CUUoWoI9yrC8ANhFhL1tAUjwOMgbi1QJo58MMGINMe98Lt0ePrDalYCfHg
+        A0jEd9EtGEErvx/1DTdxvrIDnMJmpLMvUq7PSJ6DG7RoQeIPdCafBCwDktcDZ7/EzCk7PCraBRTsADiu
+        +CNwK5qsbGbdd5266rKXW+3qWsDz9OTyPDyKeHvc8nhOztl1bvtyLqacrJqvjPnkXdLXbhjdSUGjVwOl
+        dpg+7Qj+Skaz4PP3Rp6c2w1kWwMn7dBvsfrP80tMrRY7cQvK7QIhJmy6VuP4t+vwMNkKeSsMfqkhhEaN
+        b+7eZjb+NG0jWi1XPKvT1Q56FeiCPa4khM5m6F7JXkbvrCKEsv/3rVVJo20vMdGb4C3VCXtVqGbeX3rf
+        6U2LrqoZAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;lbchMAC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbBootFileSize.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="cbBootFileSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbArpCacheTimeout.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServerID.Text" xml:space="preserve">
+    <value>Server Identifier:</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultMtu.Name" xml:space="preserve">
+    <value>tbDefaultMtu</value>
+  </data>
+  <data name="gbGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="cbDefaultTtlForTcp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 146</value>
+  </data>
+  <data name="cbTimeServers.Text" xml:space="preserve">
+    <value>Time Servers:</value>
+  </data>
+  <data name="&gt;&gt;gbOptions.Name" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="cbArpCacheTimeout.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblLeaseMaximal.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="&gt;&gt;cbBootFileSize.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultTtlForTcp.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblAddrRange.Text" xml:space="preserve">
+    <value>Address Range:</value>
+  </data>
+  <data name="tbDefaultTtlForTcp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="&gt;&gt;cbArpCacheTimeout.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="btnUserRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 40</value>
+  </data>
+  <data name="tbLeaseMaximal.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;gbClients.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbClients.Name" xml:space="preserve">
+    <value>gbClients</value>
+  </data>
+  <data name="&gt;&gt;tbDomainName.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="lbchMAC.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="btnUserClear.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;lblServerID.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="tbDefaultMtu.Mask" xml:space="preserve">
+    <value>99990</value>
+  </data>
+  <data name="&gt;&gt;ipNewClientIP.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbDefaultTtlForUdp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 169</value>
+  </data>
+  <data name="btnCancel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbNBNameServers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 249</value>
+  </data>
+  <data name="tbAddrRangeEnd.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="lblBootFilename.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ipDNS1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tbDefaultMtu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="cbBootFileSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 120</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Subnet Configuration</value>
+  </data>
+  <data name="imgSideImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 252</value>
+  </data>
+  <data name="btnUserAdd.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDefaultMtu.Text" xml:space="preserve">
+    <value>Default MTU:</value>
+  </data>
+  <data name="&gt;&gt;cbDomainName.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblInterfaces.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="tbArpCacheTimeout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;cbGateways.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblServerID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbchIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbNetworkTimeServers.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbPingCheck.Name" xml:space="preserve">
+    <value>cbPingCheck</value>
+  </data>
+  <data name="imgSideImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbDefaultTtlForTcp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ipNetworkTimeServer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbBootFilename.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>631, 503</value>
+  </data>
+  <data name="cbNBNameServers.ToolTip" xml:space="preserve">
+    <value>The name server option specifies a list of IEN 116 [7] name servers
+available to the client. Servers SHOULD be listed in order of
+preference.</value>
+  </data>
+  <data name="&gt;&gt;cbDNS.Name" xml:space="preserve">
+    <value>cbDNS</value>
+  </data>
+  <data name="tbDefaultTtlForTcp.Mask" xml:space="preserve">
+    <value>990</value>
+  </data>
+  <data name="&gt;&gt;ipSubnetMask.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tbDefaultMtu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 195</value>
+  </data>
+  <data name="lvClients.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;tbArpCacheTimeout.Name" xml:space="preserve">
+    <value>tbArpCacheTimeout</value>
+  </data>
+  <data name="tbDomainName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 43</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultTtlForTcp.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="ipSubnetMask.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="tbDefaultTtlForUdp.Mask" xml:space="preserve">
+    <value>990</value>
+  </data>
+  <data name="&gt;&gt;tbDomainName.Name" xml:space="preserve">
+    <value>tbDomainName</value>
+  </data>
+  <data name="gbClients.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lblLeaseDefault.Text" xml:space="preserve">
+    <value>Default lease time:</value>
+  </data>
+  <data name="cbDefaultTtlForTcp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultMtu.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbDefaultTtlForTcp.PromptChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;ipDNS2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ipDNS1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="lblBootFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 153</value>
+  </data>
+  <data name="cbDomainName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="cbSubnetMask.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbInterfaces.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbAddrRangeStart.Name" xml:space="preserve">
+    <value>tbAddrRangeStart</value>
+  </data>
+  <data name="cbGateways.Text" xml:space="preserve">
+    <value>Gateways:</value>
+  </data>
+  <data name="cbTimeServers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ipNewClientIP.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="&gt;&gt;tbLeaseDefault.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbEnableIpForward.ToolTip" xml:space="preserve">
+    <value>This option specifies whether the client should configure its IP
+layer for packet forwarding.</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnUserAdd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbNewClientMac.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="ipNetworkTimeServer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="&gt;&gt;ipGateway2.Name" xml:space="preserve">
+    <value>ipGateway2</value>
+  </data>
+  <data name="&gt;&gt;ipNewClientIP.Parent" xml:space="preserve">
+    <value>gbClients</value>
+  </data>
+  <data name="&gt;&gt;btnUserRemove.Name" xml:space="preserve">
+    <value>btnUserRemove</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="&gt;&gt;cbTimeServers.Name" xml:space="preserve">
+    <value>cbTimeServers</value>
+  </data>
+  <data name="cbArpCacheTimeout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 224</value>
+  </data>
+  <data name="ipGateway1.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnUserAdd.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultMtu.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cbPingCheck.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaseMaximal.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;ipServerId.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="&gt;&gt;lblLeaseDefault.Name" xml:space="preserve">
+    <value>lblLeaseDefault</value>
+  </data>
+  <data name="tbBootFileSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 117</value>
+  </data>
+  <data name="tbBootFileSize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Console, 9.75pt</value>
+  </data>
+  <data name="lblLeaseMaximal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDefaultTtlForTcp.ToolTip" xml:space="preserve">
+    <value>This option specifies the default TTL that the client should use when
+sending TCP segments. The value is represented as an 8-bit unsigned
+integer. The minimum value is 1.</value>
+  </data>
+  <data name="&gt;&gt;cbBroadcastAddr.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="ipNetworkTimeServer1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="cbNBNameServers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbDefaultTtlForUdp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblAddrRange.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="lblLeaseDefault.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ipTimeServer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="tbDefaultTtlForTcp.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAA
+        CxMBAJqcGAAAAqpJREFUSEvV1V9IU1EcB/CflVsTy6HiLCoy5oMpmpVURpJCycLaAktsljj/lBr+J4KS
+        0AINzdqDhpaZ/xYmYtrQ9dB6EIREfDD/gDCXpN7+CCP6o9HDt90L57al/VvsoQvnPpx7zuf8fr9zDtcD
+        ALnl4WF3NLegQhX4l+9NT/Ju8iD/einJqyUkb19D3s1E/h2eFGUKIaUxgAI7ZSRvIZLVEXnxrYHI8x6t
+        4udnGzKR0Zq65Ji5yzBDzrXqUG+uRcewAbsvhb9h/S7BbHJBey46hx/gxJ0ErCuRoORRHoJ1Wy0ulYKh
+        uqYU9Ix1IclwDJtv+IEqCPsaI7C9fJt9yA81dqzRSjVm3zX1R2Cc7oa2TwNliwJeLYRNd32Ww2wCvxpb
+        ke9z3Dw2Ju72fvTP9iBtIAmRvUooeiUI7ggQUUWiXCiveNx4cIR7Ds42K+J+nauFU8HQ6LqdX0ycEbnD
+        aYg174LS7I8dfUFOkTrBPGqyPobJYsT9iQZMvZ90ipyH+TFP7OiF8fNQD8UhcigI0QNhIipNIJLGEy2D
+        dfbU9BPX8dDahtqpGkwtfsd5tJ/rRZnlIlLG1YgZC8fhF3tEVJZuR1UrwCyiA88iUDpZjOaZBuitlZhY
+        HBUi73nVheq5qzg7fQoqSzSOv4xzSn/t6V/ADI8ZCUe+JQN1czW4NV+BgY9m1L6rRiGXicT5Q9AuJIjo
+        hm4ZeV8j+ikcVRFKiqL1UoYfnYlBFpeMqoVy6G2VKLUV4IxNjazFk4gd3CtkETG4xSPAIPk9HFjoQ7Ir
+        JGN46gcNcj5pcflzPnKWtMhDKlRjB8VNDX26kf4YdrwgfFTFyEAh0lGGIiRb1QKa/FblGzsaSS7DLPJG
+        6FH8OluMNImLp3+GGR5WFSLc/9Kv+fRX8P/3B3FHxN8AyLPjR4gIBR4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;ToolTipConfig.Name" xml:space="preserve">
+    <value>ToolTipConfig</value>
+  </data>
+  <data name="lblInterfaces.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 54</value>
+  </data>
+  <data name="ipNetworkTimeServer1.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;lblLeaseMaximal.Name" xml:space="preserve">
+    <value>lblLeaseMaximal</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbArpCacheTimeout.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="tbDefaultTtlForUdp.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;cbDefaultTtlForUdp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbLeaseMaximal.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;cbBroadcastAddr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbDomainName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 24</value>
+  </data>
+  <data name="cbArpCacheTimeout.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tbDefaultTtlForTcp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 143</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultTtlForTcp.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="tbArpCacheTimeout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 221</value>
+  </data>
+  <data name="&gt;&gt;ipGateway1.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;lvClients.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gbOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbNewClientHostName.Parent" xml:space="preserve">
+    <value>gbClients</value>
+  </data>
+  <data name="lblBootFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cbArpCacheTimeout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbClients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUserRemove.Parent" xml:space="preserve">
+    <value>gbClients</value>
+  </data>
+  <data name="&gt;&gt;lblServerID.Name" xml:space="preserve">
+    <value>lblServerID</value>
+  </data>
+  <data name="ipBroadcastAddr.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="ipGateway2.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;ipGateway1.Type" xml:space="preserve">
+    <value>IPAddressControlLib.IPAddressControl, IPAddressControlLib, Version=1.1.3408.40134, Culture=neutral, PublicKeyToken=55e96405d8fd6d61</value>
+  </data>
+  <data name="&gt;&gt;tbNewClientHostName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbLeaseMaximal.Text" xml:space="preserve">
+    <value>86400</value>
+  </data>
+  <data name="cbDefaultMtu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbInterfaces.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 70</value>
+  </data>
+  <data name="&gt;&gt;cbGateways.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="&gt;&gt;cbDomainName.Name" xml:space="preserve">
+    <value>cbDomainName</value>
+  </data>
+  <data name="ipSubnetMask.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;cbDenyUnknownClients.Parent" xml:space="preserve">
+    <value>gbGeneral</value>
+  </data>
+  <data name="ipServerId.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="ipDNS2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="&gt;&gt;lbchHostname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ipGateway1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbBootFileSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbLeaseDefault.Name" xml:space="preserve">
+    <value>tbLeaseDefault</value>
+  </data>
+  <data name="tbBootFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cbDomainName.ToolTip" xml:space="preserve">
+    <value>This option specifies the domain name that client should use when
+resolving hostnames via the Domain Name System.</value>
+  </data>
+  <data name="imgSideImage.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;ipBroadcastAddr.Parent" xml:space="preserve">
+    <value>gbOptions</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>631, 454</value>
+  </data>
+  <data name="lblLeaseMaximal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="&gt;&gt;ipServerId.Name" xml:space="preserve">
+    <value>ipServerId</value>
+  </data>
+  <data name="gbClients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 376</value>
+  </data>
+  <data name="tbLeaseDefault.Mask" xml:space="preserve">
+    <value>999990</value>
+  </data>
+  <data name="tbNewClientMac.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 19</value>
+  </data>
+  <metadata name="ToolTipConfig.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
