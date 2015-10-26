@@ -1,12 +1,11 @@
-NetGate
+Internet Gateway
 =======
 
-NetGate, Internet Gateway Software
+Internet Gateway Software
 Copyright (c) 2008-2009, Danail Dimitrov
 
 
 Version:
-	NetGate
 	version 0.1.XXXX
 
 
